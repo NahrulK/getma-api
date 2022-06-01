@@ -10,6 +10,7 @@ const ProductSchema = new mongoose.Schema(
     color: { type: Array },
     merekcet: { type: Array },
     price: { type: Number, required: true },
+    // amount: { type: Number, required: true },
     inStock: { type: Boolean, default: true },
   },
   { timestamps: true }
